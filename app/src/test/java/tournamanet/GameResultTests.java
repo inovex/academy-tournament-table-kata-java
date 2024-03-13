@@ -18,12 +18,6 @@ public class GameResultTests {
         changeSecondTeamName = new Team("SecondTeam");
     }
 
-    @AfterEach
-    public void tearDown() {
-        changeFirstTeamName = null;
-        changeSecondTeamName = null;
-    }
-
     @Test
     public void mySuperDuperTestName() {
         // TODO

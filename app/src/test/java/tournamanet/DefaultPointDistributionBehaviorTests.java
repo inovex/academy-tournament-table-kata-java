@@ -32,17 +32,6 @@ public class DefaultPointDistributionBehaviorTests {
         secondTableEntry.setTeam(changeSecondTeamName);
     }
 
-    @AfterEach
-    public void tearDown() {
-        pointDistributionBehavior = null;
-
-        firstTeamTableEntry = null;
-        secondTableEntry = null;
-
-        changeFirstTeamName = null;
-        changeSecondTeamName = null;
-    }
-
     @Test
     public void whatShouldITest() {
         // TODO
